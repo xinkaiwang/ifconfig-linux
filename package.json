@@ -1,0 +1,34 @@
+{
+  "name": "ifconfig-linux",
+  "version": "0.0.1",
+  "description": "wrap ifconfig and parse result to json format",
+  "main": "executeCmd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ifconfig-linux": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinkaiwang/ifconfig-linux.git"
+  },
+  "keywords": [
+    "ifconfig",
+    "network",
+    "node.js",
+    "json",
+    "RX",
+    "TX"
+  ],
+  "author": "Xinkai Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinkaiwang/ifconfig-linux/issues"
+  },
+  "dependencies": {
+    "child_process": "1.0.2",
+    "bluebird": "3.4.6",
+    "underscore": "1.8.3"
+  }
+}
