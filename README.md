@@ -2,6 +2,11 @@
 
 Wrap ifconfig and parse result to json format (work on linux, not work on mac).
 
+NOTE: This library only works with [`ifconfig`'s older output format (prior to Ubuntu 18.04)](https://github.com/xinkaiwang/ifconfig-linux/issues/2), containing the string "Link" with each interface. User [keylase](https://github.com/keylase) made a fork of this project called [`ipaddr-linux`](
+https://github.com/keylase/ipaddr-linux
+) that parses `ip -s addr`, which has a more stable, predictable output.  It works on Ubuntu 18.04 and newer, and provides an identical API.
+
+
 
 # Command-line Example
 ``` js
